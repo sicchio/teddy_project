@@ -97,10 +97,8 @@ text(name, 50, 50);
 //  pop();
 
 
-console.log("Sending:" + name + name2 + name3);
-//
-//
-//
+console.log('Sending:' + name + name2 + name3);
+
 
 }
 
