@@ -7,7 +7,7 @@ var img;
 
 function setup() {
   // create canvas
-  socket = io.connect('http://68.183.99.181:3000');
+  socket = io.connect('http://167.172.247.68:3000');
   socket.on('words', newDraw);
 
   canvas = createCanvas(640, 480);
